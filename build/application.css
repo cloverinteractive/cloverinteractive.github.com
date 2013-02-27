@@ -1,0 +1,9 @@
+.hero-unit .hero-unit-image {
+  display: block;
+  background: #ccc;
+  height: 350px; }
+
+.btn {
+  padding: .62em;
+  letter-spacing: 2px;
+  font-weight: 200; }

@@ -1,0 +1,19 @@
+{
+  "name": "clover-interactive",
+  "version": "0.0.1",
+  "description": "'Clover Interactive Marketing Page'",
+  "main": "Gruntfile.coffee",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": "",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-neuter": "~0.3.0",
+    "grunt-contrib-coffee": "~0.5.0",
+    "grunt-ember-templates": "~0.4.3",
+    "grunt-contrib-watch": "~0.2.0",
+    "grunt-contrib-sass": "~0.2.2"
+  }
+}

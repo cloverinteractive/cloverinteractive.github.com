@@ -1,0 +1,48 @@
+<header id="app-header" class="navbar">
+  <div class="navbar-inner">
+    {{#linkTo "index" class="active brand"}}
+      Clover Interactive
+    {{/linkTo}}
+    <ul class="nav pull-right">
+      <li>
+        {{#linkTo index}}Home{{/linkTo}}
+      </li>
+      <li>
+        {{#linkTo "work"}}Work{{/linkTo}}
+      </li>
+      <li>
+        {{#linkTo "about"}}About{{/linkTo}}
+      </li>
+      <li>
+        {{#linkTo "team"}}Team{{/linkTo}}
+      </li>
+      <li>
+      <a href="#" {{action contact}}>Contact</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+{{outlet}}
+
+<footer id="app-footer">
+  <p class="pull-left">
+    &copy; 2013 Clover Interactive.
+  </p>
+  <ul class="pull-right nav nav-pills">
+    <li>
+    {{#linkTo index}}Home{{/linkTo}}
+    </li>
+    <li>
+    {{#linkTo faq}}FAQ{{/linkTo}}
+    </li>
+    <li>
+    <a href="#">Github</a>
+    </li>
+    <li>
+    <a href="#">Coderwall</a>
+    </li>
+  </ul>
+</footer>
+
+{{outlet modal}}
